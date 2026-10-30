@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#5E35B1</item>
+        <item name="colorPrimaryVariant">#4527A0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#D81B60</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
+</resources>

@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.smm.paymentsync"
+    namespace = "com.smmpaysync.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.smm.paymentsync"
-        minSdk = 24
+        applicationId = "com.smmpaysync.app"
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "2.5.0"
+        versionName = "1.0"
     }
 
     buildTypes {
@@ -20,6 +20,7 @@ android {
             isMinifyEnabled = false
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -30,4 +31,9 @@ android {
 }
 
 dependencies {
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
 }

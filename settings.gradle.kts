@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "SMMPaymentSync"
+rootProject.name = "SmmPaySync"
 include(":app")
